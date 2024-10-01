@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <!-- Create a form for user feedback with text input fields, radio buttons, a checkbox, and a submit button -->
+    <h1>Contact Form </h1>
+
+    <form action="#" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lvname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="phone" id="phone" name="phone" required><br>
+        
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <h2>Feedback </h2>
+    <form>
+        <input type="radio" id="option1" name="option" value="1">
+        <label for="option1">really like it </label><br>
+        <input type="radio" id="option2" name="option" value="2">
+        <label for="option2">like it</label><br>
+        <input type="radio" id="option2" name="option" value="2">
+        <label for="option2">Dont like it</label><br>
+    </form>
+        <form>
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+        <label for="subscribe">Subscribe to receive updates and special offers</label><br>
+        <input type="checkbox" id="understand" name="understand" value="understand">
+        <label for="understand">I understand the terms </label><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback"></textarea><br>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

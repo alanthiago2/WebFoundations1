@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Lesson 1 and Table Example</title>
+</head>
+<body style="background-color: pink;">
+
+    <!-- Heading and Paragraph with Formatting -->
+    <h1><em>This is a Heading</em></h1>
+    <p><strong>This is a paragraph that explains various HTML functionalities.</strong></p>
+
+    <!-- Mailto Link Example -->
+    <p>
+        <a href="mailto:mchandl9@slcc.edu?subject=example&body=I%20am%20a%20test" target="_blank">
+            Send Email
+        </a>
+    </p>
+
+    <!-- Image Example -->
+    <p>
+        <img src="https://icons.iconarchive.com/icons/iconarchive/cute-animal/icons-390s.jpg" height="150px" alt="Cute Animals">
+    </p>
+<!-- Description Lists -->
+<h2>Description List Example</h2>
+<dl>
+<dt>Coffee</dt>
+<dd>Black Hot Beverage</dd>
+</dl>
+
+    <!-- Ordered List Example -->
+    <h2>Ordered List Example</h2>
+    <ol>
+        <li>Ordered Task</li>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+        <li>Ordered Task</li>
+        <li>Ordered List Item</li>
+    </ol>
+
+    <!-- Unordered List Example -->
+    <h2>Unordered List Example</h2>
+    <ul>
+        <li>Unordered Task</li>
+        <li>Unordered List Item</li>
+        <li>Unordered List Item</li>
+        <li>Unordered Task</li>
+        <li>Unordered List Item</li>
+    </ul>
+
+    <!-- Table Example with Colspan and Rowspan -->
+    <h2>Table Example with Colspan and Rowspan</h2>
+    <table border="1" style="border-collapse: collapse; width: 100%; background-color:white;">
+        <thead style="text-align: center; background-color:black; color:white;">
+            <tr>
+                <!-- Set specific widths for each column header -->
+                <th style="width: 33%;">List 1</th>
+                <th style="width: 33%;">Image</th>
+                <th style="width: 33%;">List 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- rowspan to merge two rows for the first column -->
+                <td rowspan="2" style="text-align: center;">
+                    <ol style="display: inline-block; text-align: left;">
+                        <li>Ordered Task</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered Task</li>
+                        <li>Ordered List Item</li>
+                    </ol>
+                </td>
+                <td style="text-align: center;">
+                    <img src="https://icons.iconarchive.com/icons/iconarchive/cute-animal/icons-390s.jpg" height="150px" alt="Cute Animals">
+                </td>
+                <td rowspan="2" style="text-align: center;">
+                    <ul style="display: inline-block; text-align: left;">
+                        <li>Unordered Task</li>
+                        <li>Unordered List Item</li>
+                        <li>Unordered List Item</li>
+                        <li>Unordered Task</li>
+                        <li>Unordered List Item</li>
+                    </ul>
+                </td>
+            </tr>
+                        <tr>
+                <!-- rowspan to merge two rows for the first column -->
+                <td style="text-align: center;">
+                    <ol style="display: inline-block; text-align: left;">
+                        <li>Ordered Task</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered List Item</li>
+                        <li>Ordered Task</li>
+                        <li>Ordered List Item</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center; background-color:black; color:white;">Merged Cell with Colspan</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

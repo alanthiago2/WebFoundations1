@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h2>Customer Feedback Survey</h2>
+    
+    <form action="submit-survey.php" method="POST">
+        
+        <!-- Name Input -->
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Age Group Dropdown -->
+        <label for="age">Age</label><br>
+        <select id="age" name="age" required>
+            <option value="">Select your age group</option>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-45</option>
+            <option value="46+">46+</option>
+        </select><br><br>
+
+        <!-- Services Checkbox -->
+        <label>Which services have you used? (Check all that apply):</label><br>
+        <input type="checkbox" name="services[]" value="Consulting"> Consulting<br>
+        <input type="checkbox" name="services[]" value="Support"> Support<br>
+        <input type="checkbox" name="services[]" value="Development"> Development<br><br>
+
+        <!-- Rating Radio -->
+        <label for="rating">How would you rate our service? (Required):</label><br>
+        <input type="radio" id="excellent" name="rating" value="Excellent" required> Excellent<br>
+        <input type="radio" id="good" name="rating" value="Good" required> Good<br>
+        <input type="radio" id="fair" name="rating" value="Fair" required> Fair<br>
+        <input type="radio" id="poor" name="rating" value="Poor" required> Poor<br><br>
+
+        <!-- Comments Textarea -->
+        <label for="comments">Additional Comments (Optional):</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Survey</button>
+    
+    </form>
+
+</body>
+</html>
