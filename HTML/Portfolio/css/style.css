@@ -8,14 +8,16 @@ h1
 }
 /* Adding borders to the header, sections, and image */
 header {
-    border: 2px solid #000; /* Black border */
+    
     padding: 10px;
+    text-align: center;
 }
 
 section {
     border: 2px solid #333; /* Dark gray border */
     padding: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 img {
