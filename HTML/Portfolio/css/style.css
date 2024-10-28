@@ -1,0 +1,33 @@
+h1
+{ 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Adding borders to the header, sections, and image */
+header {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    border: 2px solid #333; /* Dark gray border */
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    border: 3px solid #555; /* Medium gray border */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    border-top: 2px solid #000; /* Border only at the top */
+    padding: 10px;
+    text-align: center;
+}

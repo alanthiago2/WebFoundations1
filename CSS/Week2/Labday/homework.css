@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Use a nice Google Font */
+body {
+    background-image: url('./Images/maxresdefault.jpg'); /* Background image for the body */
+    background-color: powderblue; /* Fallback color if image doesn't load */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Fixes the background image in place during scroll */
+    font-family: 'Roboto', sans-serif; /* Sets the font for the body text */
+    text-align: center; /* Centers text within the body */
+    line-height: 1.6; /* Increases line height for better readability */
+    color: #333; /* Slightly dark text color for readability */
+    padding: 20px; /* Adds space inside the body around the content */
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    text-align: center; /* Centers text inside the div */
+    border: none; /* No border around the div */
+    padding: 10px; /* Space inside the div */
+    margin: 10px; /* Space outside the div, creating distance between elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+}
+
+h1 {
+    background-color: black; /* Background color for the header */
+    text-align: center; /* Centers the header text */
+    font-size: 2.5em; /* Increases font size for prominence */
+    color: yellow; /* Sets text color to yellow */
+    margin-bottom: 20px; /* Space below the header */
+    padding: 20px; /* Adds space inside the header */
+    border-radius: 5px; /* Rounds the corners of the header */
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    margin: 20px auto; /* Vertical space around the paragraph, auto-centers horizontally */
+    width: 80%; /* Limits the width of the paragraph */
+    font-size: 1.2em; /* Increases font size for readability */
+    padding: 15px; /* Space inside the paragraph */
+    border-radius: 5px; /* Rounds the corners of the paragraph */
+}
+
+iframe {
+    margin: 20px 0; /* Vertical space above and below the iframe */
+}
+
+section {
+    margin: 20px; /* Space around each section */
+}
+
+h2 {
+    font-size: 2em; /* Sets font size for section headers */
+    color: darkred; /* Text color for section headers */
+    text-align: center; /* Centers the section header text */
+    margin-top: 20px; /* Space above the section header */
+    padding: 10px; /* Space inside the section header */
+}
+
+img {
+    display: block; /* Makes the image a block-level element */
+    margin: 10px auto; /* Centers the image with vertical margin */
+    border-radius: 10px; /* Rounds the corners of the image */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding inside the list */
+}
+
+ul li {
+    font-size: 1.2em; /* Sets font size for list items */
+    margin: 5px 0; /* Vertical space between list items */
+    color: darkgreen; /* Text color for list items */
+    padding: 10px; /* Space inside each list item */
+    border-radius: 5px; /* Rounds the corners of list items */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Add hover effect on list items */
+ul li:hover {
+    color: darkblue; /* Changes text color on hover */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
