@@ -1,0 +1,146 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header Styling with Animation */
+h1 { 
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em; /* Larger font for desktop */
+    animation: fadeIn 2s ease-in;
+    margin: 0;
+}
+
+/* Header Navigation Styling */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 15px; /* Spacing between links on desktop */
+}
+
+/* Pseudo-Class: Hover effect on links */
+ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 1em; /* Default font size for desktop */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Section Styling with Border */
+section {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    border: 3px solid #555;
+    border-radius: 50%; /* Circular for a profile picture */
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    border-top: 1px solid #000;
+    background-color: powderblue;
+    padding: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+footer a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* CSS Animation for h1 */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw; /* Scales with viewport width */
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px auto;
+        width: 90%; /* Maximizes use of smaller screens */
+    }
+
+    ul li {
+        display: block; /* Stacks links vertically */
+        margin: 10px 0;
+        font-size: 5vw; /* Larger font for easier tapping */
+    }
+
+    img {
+        width: 150px; /* Smaller image for smaller screens */
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 7vw;
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+        width: 95%;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+
+    footer {
+        font-size: 4vw; /* Smaller font in footer for compact view */
+        padding: 10px;
+    }
+}

@@ -1,0 +1,78 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Center text by default */
+}
+
+/* Container for centralizing content */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Header styles */
+header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h4 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0; /* No margin at the top */
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #555; /* Darker color for h2 */
+    border-bottom: 2px solid #ddd; /* Underline */
+    padding-bottom: 5px; /* Space below the heading */
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #3a3a3a; /* Darker color for h4 */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #007b5e; /* Navigation background */
+    padding: 10px; /* Padding for nav */
+}
+
+nav h4 {
+    margin: 0; /* No margin for nav headings */
+    padding: 5px 0; /* Padding above and below */
+    color: #fff; /* White text color */
+}
+
+nav p {
+    padding: 0 15px; /* Horizontal padding for nav paragraphs */
+    margin: 0; /* No margin for nav paragraphs */
+    color: #ddd; /* Lighter text color */
+}
+
+/* Section styles */
+section {
+    margin: 20px 0; /* Vertical margin */
+    padding: 20px; /* Padding inside section */
+    background-color: #fff; /* White background for sections */
+    border: none; /* No border */
+}
+
+/* Footer styles */
+footer {
+    background-color: #3a3a3a; /* Footer background */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Padding for footer */
+}
