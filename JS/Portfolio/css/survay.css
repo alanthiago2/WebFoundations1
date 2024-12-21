@@ -1,0 +1,71 @@
+/* Advanced selector (attribute selector): style all required input fields */
+body {
+    font-family: Arial, sans-serif;
+}
+input[required], select[required] {
+    border: 1px solid #1e90ff; /* Dodger Blue */
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* Pseudo-element: add a decorative icon before h2 heading */
+h2::before {
+    content: "📋 ";
+    color: #1e90ff; /* Dodger Blue */
+    margin-right: 5px;
+}
+
+/* Pseudo-class: style input fields on hover */
+input:hover, textarea:hover {
+    border-color: #4682b4; /* Steel Blue */
+    background-color: #e6f7ff; /* Light Blue */
+}
+
+/* Form container styling */
+form {
+    border: 2px solid #1e90ff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff;
+}
+
+/* Label styling */
+form > label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+    background-color: #4682b4;
+}
+
+/* Heading styling */
+h2 {
+    background-color: #87cefa;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#form-response {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
